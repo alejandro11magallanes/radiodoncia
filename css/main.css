@@ -29,13 +29,34 @@ a {
 }
 
 .horizontal-padding {
-  padding-left: 25px;
+  padding-left: 20px;
   padding-right: 25px;
 }
 .vertical-padding {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+.whatsapp {
+  position: fixed;
+  top: 15%;
+  left: 2%;
+  z-index: 99999;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.whatsapp span {
+  background: #00d138;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.35);
+  color: #fff;
+  border-radius: 8px;
+  padding: 5px;
+
+  font-size: 16px;
+}
+
 
 @media (min-width: 950px) {
   .horizontal-padding {

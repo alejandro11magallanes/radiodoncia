@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 
 .profile-info {
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.servcios-info {
   margin-bottom: 25px;
+  width: 100%;
+}
+
+.profile-info  li{
+  font-size: 30px;
 }
 
 .profile-img {
@@ -23,23 +33,25 @@
 }
 
 .profile {
-  text-align: center;
+  text-align:justify;
 }
 
 .profile-title {
   font-size: 35px;
   font-weight: bold;
   margin: 0;
-  color: var(--primary-color);
+  color: #2c4f72;
   font-family: "Noto Sans", sans-serif;
 }
 
 .profile-details {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.3;
-  max-width: 450px;
-  margin: 20px auto;
+  color: white;
+  max-width: 650px;
+  width: 500px;
+  margin: 10px auto;
 }
 
 .profile-btn {
